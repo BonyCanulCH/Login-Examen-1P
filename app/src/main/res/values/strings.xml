@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Login - Examen1P</string>
+    <string name="textTit">¡Bienvenido a DeepWeb!</string>
+    <string name="etiq1">Email:</string>
+    <string name="etiq2">Password:</string>
+    <string name="btn1">Iniciar Sesión</string>
+    <string name="btn2">Registrarse</string>
+    <string name="camp1">Ingresa tu Correo</string>
+    <string name="camp2">Ingresa tu Contraseña</string>
+    <string name="terminos">Términos y Condiciones</string>
+    <string name="radbtn1">Aceptar</string>
+    <string name="radbtn2">Rechazar</string>v
+</resources>

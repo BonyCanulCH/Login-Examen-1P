@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTit"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="@string/textTit" />
+
+    <ImageView
+        android:id="@+id/logInicial"
+        android:layout_width="251dp"
+        android:layout_height="236dp"
+        android:layout_below="@id/textTit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/deepweblogo" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="@string/btn1"
+        android:layout_below="@id/camp2"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn2" />
+
+    <TextView
+        android:id="@+id/etiq1"
+        android:text="@string/etiq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logInicial"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:paddingLeft="50sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/camp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etiq1"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="40sp"
+        android:paddingRight="40sp"
+        android:hint="@string/camp1"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#A8A6A6" />
+
+    <TextView
+        android:id="@+id/etiq2"
+        android:text="@string/etiq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camp1"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="50sp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/camp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etiq2"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/camp2"
+        android:inputType="textPassword"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:textColorHint="#A8A6A6" />
+
+    <TextView
+        android:id="@+id/terminos"
+        android:text="@string/terminos"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <RadioGroup
+        android:id="@+id/btns"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/terminos"
+        android:layout_marginTop="-2dp"
+        android:orientation="horizontal"
+        android:paddingLeft="110dp">
+
+        <RadioButton
+            android:id="@+id/radbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radbtn1" />
+
+        <RadioButton
+            android:id="@+id/radbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radbtn2" />
+    </RadioGroup>
+
+</RelativeLayout>
